@@ -1,0 +1,16 @@
+doctype html
+html lang="en" class="#{params[:controller]}-controller #{params[:action]}-action"
+    head
+        meta name="viewport" content="width=device-width"
+        meta http-equiv="X-UA-Compatible" content="IE=edge"
+        title SmartPlate®
+        meta name="p:domain_verify" content="8bbf614c81fa82be60e2104068c4b8d9"
+        meta name="google-site-verification" content="JI7ILU5meQIALUVVKl4vZLfN9ujZ8eX864QISZgmPk8"
+        = favicon_link_tag "favicon.png"
+        = csrf_meta_tags 
+        = yield :header
+    body id="#{params[:controller]}-#{params[:action]}" data-controller="#{params[:controller]}" data-action="#{params[:action]}"
+        = render "layouts/header"
+        main
+            = yield
+        = render "layouts/footer"

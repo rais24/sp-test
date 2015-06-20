@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Lato-Regular.woff') format('woff'), 
+  url('fonts/Lato-Regular.ttf')  format('truetype'), 
+  url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{ margin:0px; padding:0;  font-family: 'Lato-Regular';}
+#container{ margin:0px; padding:0px; max-width:100%;}
+.header{ height:50px; background:#3a175e; padding:0 1%; position:fixed; width:100%; z-index:999;}
+.header .logo{ float:left; line-height:64px; height:50px;}
+.header .logo img{max-width:100%; height:auto;}
+.header-slide{max-width:100%; height:auto; padding-top:50px; position:relative;}
+.header-slide img{max-width:100%; height:auto;}
+.header-slide .headingtext{ position:absolute; width:100%; text-align:center; top:100px;}
+.header-slide .headingtext h1{ color:#5A5A5A; font-size:24px; font-weight:normal;  margin:0px; padding:0px; letter-spacing:2px;}
+
+.header-slide .headingtext h2{ color:#939393; font-size:30px; font-weight:bold; line-height:35px;  margin:0px; padding:0px; letter-spacing:2px;}
+.body-container{ width:100%; padding:20px 0;}
+
+.body-container h1{ text-align:center; color:#5A5A5A; font-size:16px; font-weight:lighter; line-height:10px; letter-spacing:1px;}
+.body-container h2{ text-align:center; color:#5A5A5A; font-size:16px; font-weight:lighter; line-height:10px; margin-bottom:24px; letter-spacing:1px;}
+.form{ max-width:220px; margin:0 auto;}
+.thanks{font-size:14px; color:#5A5A5A; font-family: 'Lato-Regular'; width:100%; text-align:center; letter-spacing:1px; margin-bottom:25px;}
+.form .input-div{ height:33px; line-height:30px; margin:12px 0;
+-webkit-box-shadow: -1px -1px 8px -1px rgba(202,209,209,1);
+-moz-box-shadow: -1px -1px 8px -1px rgba(202,209,209,1);
+box-shadow: -1px -1px 8px -1px rgba(202,209,209,1);}
+ 
+.form .input-div input{ background:none; border:0px; font-size:12px; color:#747272; font-family: 'Lato-Regular'; width:91%; padding:0 10px; height:32px;}
+.form .submit-btn{ background:#3a175e; text-align:center; width:120px; height:35px; margin:0px auto; cursor:pointer; margin-top:20px; border:0px; color:#fff;} 
+
+.submit-btn input{ background:#3a175e; border:none; color:#FFF; line-height:35px; font-size:11px; font-weight:bold; cursor:pointer; -webkit-appearance: none;}
+.form .submit-btn:hover{ background:#4f4f4f;}
+
+@media all and (max-width: 640px) and (min-width: 320px) {
+	.header-slide img{ min-height:160px;}
+	.header-slide .headingtext h1{ font-size:20px; letter-spacing:0px; }
+	.header-slide .headingtext{ top:55px;}
+	.header-slide .headingtext h2{ line-height:17px; font-size:18px;}
+}
+
+@media all and (max-width: 980px) and (min-width: 641px) {
+	.header-slide img{ min-height:300px;}
+	.header-slide .headingtext h1{ font-size:32px; letter-spacing:0px;}
+	.header-slide .headingtext{ top:80px;}
+	.header-slide .headingtext h2{ line-height:20px; font-size:40px;}
+	.form{ max-width: 286px;}
+	.body-container h1{ font-size:18px;}
+	.body-container h2{ font-size:18px;}	
+	.form .input-div{ height:45px; line-height:45px;}
+	.form .input-div input{ font-size:15px;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 981px) {
+.header-slide .headingtext h1{ font-size:32px; letter-spacing:0px;}
+}

@@ -1,0 +1,2 @@
+module FawHelper
+end

@@ -1,0 +1,519 @@
+*{ margin:0px; padding:0px;}
+
+body{ margin:0px; padding:0px; font-size:100%}
+
+#container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.clear{clear:both;}
+
+/*top header*/
+#logo-header{ height:95px; max-width:1280px; margin:0 auto; font-family: 'Gotham-Medium';}
+#logo-header .logo{ float:left; margin:27px 0; width:365px;}
+#logo-header .logo img{ max-width:100%; height:auto;}
+#logo-header .logo a img{ border:0px;}
+#nav{ margin:0px; padding:0px; float:left;}
+#nav ul{ list-style-type:none; }
+#nav ul li{display:inline-block; font-size:13px; line-height:96px; margin-right:40px;}
+#nav ul li a{display:inline-block; text-decoration:none; color:#432072; letter-spacing:1px;}
+#nav ul li:last-child{ margin-right:0px;}
+#order-now{background:#8446e9; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; height:31px; width:177px; float:right; margin:17px 0; padding:16px 28px; cursor:pointer;}
+#order-now .text{ color:#FFF; text-align:center; font-size:14px; height:18px;}
+#order-now .img{text-align:center;}
+/*top header*/
+
+/* top - header 1 */
+#body-container{ margin:0px; width:100%; font-family: 'Gotham-Light';}
+#header-section{border-bottom:1px solid #dac7f8; border-top:1px solid #dac7f8;background:#e9e7eb; height:680px; position:relative;}
+#header-section .text-container{position:absolute; max-width:982px; left:0; right:0; width:100%; text-align:center; margin:0 auto; top:180px;}
+#header-section .slide-div{ width:100%; height:auto; text-align:center;}
+#header-section .slide-div img{ max-width:100%; height:auto; position:absolute; right:0; left:0px; bottom:-100px; width:100%;}
+#header-section .h1{ text-align:center; font-size:48px; color:#351558; font-weight:normal; margin:0px; line-height:10px;}
+#header-section .h2{text-align:center; font-size:18px; color:#351558; font-weight:normal; margin-bottom:15px; line-height:85px;}
+
+#header-section .video-btn{ border:1px solid #8446e9; border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px; -o-border-radius:7px; width:190px; margin:0 auto; text-align:center; padding:15px 30px; height:22px; cursor:pointer; z-index:9; position:relative;}
+
+#header-section .video-btn .left-btn{ float:left; margin-top:0px;}
+#header-section .video-btn .right-text{ float:left; line-height:25px; font-size:14px; color:#3a175e; font-family: 'Gotham-Medium'; margin-left:10px;}
+/* top - header 1 close */
+
+
+/* client logo */
+#client-section{ height:100px; width:100%; margin:0 auto; text-align:center;}
+#client-section ul{ list-style-type:none;}
+#client-section ul li{ display:inline-block; margin:25px 20px;}
+#client-section ul li a img{ border:0px;}
+/* client logo close */
+
+
+/* intro section */
+#intro-section{border-bottom:1px solid #dac7f8; border-top:1px solid #dac7f8; background:#fff; min-height:549px; font-family: 'Gotham-Medium'; font-weight:normal;}
+#intro-section .left-div{ float:left; max-width:289px; width:100%;}
+#intro-section .left-div img{ max-width:100%; height:auto;}
+#intro-section .center-div{ max-width:770px; margin:0 auto; float: left; width:100%;}
+#intro-section .center-div .inner-div{ width:750px; margin:0 auto; text-align:center;}
+#intro-section .center-div .inner-div h4{ color:#9c9c9c; font-size:14px; padding-top:65px; font-weight:normal; letter-spacing:1px;}
+#intro-section .center-div .inner-div h1{font-family:'Gotham-Light';  color:#351558; font-size:40px; line-height:100px; font-weight:normal; letter-spacing:0px;}#intro-section .center-div .inner-div p{font-family:'Gotham-Light';  color:#48444c; font-size:18px; line-height:35px; font-weight:normal;}
+#intro-section .right-div{ float:right; max-width:289px; width:100%;}
+#intro-section .right-div img{ max-width:100%; height:auto;}
+/* intro section close */
+
+/* help section */
+#help-section{background:#f2f2f2 url(../assets/background/background-shade.png) top center no-repeat; height:700px; width:100%; position:relative;}
+#help-section .palte-over-div{ text-align:center; width:100%;position:absolute; display:block; top:-260px;}
+#help-section .palte-over-div img{ max-width:100%; height:auto;}
+#help-section .heading1{ text-align:center; font-size:14px; color:#9c9c9c; font-family:'Gotham-Medium'; margin-top:310px;  width:100%; float:left; font-weight:normal; letter-spacing:1px;}
+#help-section .heading2{ text-align:center; font-size:44px; color:#351558; line-height:90px; font-family:'Gotham-Light'; width:100%;  font-weight:normal; letter-spacing:0px;}
+#help-section .col-3{ max-width:880px; margin:0 auto;}
+
+#help-section .col-3 .inner-col{ max-width:229px; width:100%; margin:20px 32px; float:left; text-align:center;}
+#help-section .col-3 .inner-col .heading{ font-size:20px; color:#3a175e; font-family:'Gotham-Medium'; line-height:40px;}
+#help-section .col-3 .inner-col .text{ color:#48444c; font-family:'Gotham-Light'; font-size:14px; line-height:30px;}
+/* help section close */
+
+/* lunch section close */
+#lunch-section{width:100%; overflow:hidden;}
+#lunch-section img{ max-width:100%; height:auto; vertical-align:bottom;}
+/* lunch section close */
+
+/*Connect and analyze section*/
+#connect-analyze-section{background:url(../assets/background/connect-analyze.png) top center no-repeat;  width:100%; height:390px; text-align:center; padding-top:95px;}
+#connect-analyze-section .heading{font-size:14px; color:#9c9c9c; font-family:'Gotham-Medium';}
+#connect-analyze-section .heading2{ color:#351558; font-size:44px; font-family:'Gotham-Light'; line-height:100px;}
+#connect-analyze-section .div-center{ max-width:750px; width:100%; margin:0 auto;}
+#connect-analyze-section .div-center p{color: #48444c;  font-family: "Gotham-Light"; font-size: 18px;    font-weight: normal;     line-height: 35px;}
+#connect-analyze-section .div-center .icon-div{ max-width:370px; width:100%; margin:0 auto; margin-top:40px;}
+#connect-analyze-section .div-center .icon-div ul{ list-style-type:none;}
+#connect-analyze-section .div-center .icon-div ul li{ display:inline-block; margin:0 5px;}
+/*Connect and analyze section close*/
+
+/*BALANCED NUTRITION*/
+#balanced-section{background:url(../assets/background/balanced.png) top center no-repeat;  width:100%; height:530px; text-align:center; padding-top:80px; color:#fff;}
+#balanced-section .heading{font-size:14px; font-family:'Gotham-Medium';}
+#balanced-section .heading2{font-size:44px; font-family:'Gotham-Light'; line-height:100px;}
+#balanced-section .div-center{ max-width:750px; width:100%; margin:0 auto;}
+#balanced-section .div-center .icon-div ul{ list-style-type:none;}
+#balanced-section .div-center .icon-div ul li{ display:inline-block; margin:50px 35px; line-height:35px; font-family: 'GothamBook'; font-size:18px;}
+#balanced-section .div-center p{font-family: "Gotham-Light"; font-size: 18px;    font-weight: normal;     line-height: 35px;}
+#balanced-section .div-center .capc-note{color:#cdc7d5; font-size:11px; text-align:center; font-family: 'GothamBook'; line-height:16px;}
+
+/*BALANCED NUTRITION close*/
+
+/*designer-success*/
+#designer-success-section{background:#fff;  width:100%; height:479px; text-align:center; padding-top:85px;}
+#designer-success-section .heading{font-size:14px; font-family:'Gotham-Medium'; color:#9c9c9c;}
+#designer-success-section .heading2{font-size:44px; font-family:'Gotham-Light'; line-height:100px; color:#351558;}
+#designer-success-section .div-center{ max-width:950px; width:100%; margin:0 auto;}
+
+#designer-success-section .div-center .left-div{float:left; max-width:406px; display:inline-block; text-align:left;}
+#designer-success-section .div-center .left-div h1 { font-size:21px; color:#48444c; font-family: 'Gotham-Bold'; letter-spacing:0px; line-height:80px;}
+#designer-success-section .div-center .left-div p{ font-size:18px; line-height:35px; color:#48444c; font-family:'Gotham-Light';}
+#designer-success-section .div-center .right-div{max-width:515px; float:right; height:auto;}
+#designer-success-section .div-center .right-div img{vertical-align:top; max-width:100%; height:auto;}
+
+/*designer-success close*/
+
+/*smart palte work*/
+#smartplate-work{border-bottom:1px solid #dac7f8; border-top:1px solid #dac7f8; background:#fff; height:393px;font-family:'Gotham-Medium';}
+
+#smartplate-work .inner-container{ width:875px; margin:0 auto;}
+#smartplate-work .inner-container .col-3{ width:30%; float:left;  margin:10px; text-align:center; position:relative; margin-bottom:80px;}
+#smartplate-work .inner-container .col-3 .num{ position:absolute; width:30px; height:30px; border-radius:30px; border:1px solid #dac7f8; 
+top:-26px;
+font-size:12px;
+color:#432072;
+background:#fff;
+margin:0 auto;
+line-height:30px;
+left:0;
+right:0;
+}
+
+#smartplate-work .inner-container .col-3 .product-img{ line-height:30px; margin-top:45px; vertical-align:top;}
+#smartplate-work .inner-container .col-3 .product-img img{ max-width:100%; height:auto;}
+#smartplate-work .inner-container .col-3 .prod-name{ color:#3a175f; font-size:18px;}
+#smartplate-work .inner-container .center-btn{ border: 1px solid #8446e9;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 22px;
+	font-size:15px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    text-align: center;
+    width: 311px;
+	color:#3a175f}
+
+/*smart palte work close*/
+
+/*colours for all */
+		#all-colours{background:#f2f2f2; height:393px; font-family:'Gotham-Light';}
+		#all-colours .heading{ font-size:44px; color:#351558; text-align:center; line-height:160px;}		
+		#all-colours .center-div{ max-width:1100px; margin:0 auto;}
+		#all-colours .center-div ul{ list-style-type:none;}
+		#all-colours .center-div ul li{ display:inline-block; text-align:center;}
+		#all-colours .center-div ul li img{ max-width:100%; height:auto;}
+		
+/*colours for all close*/
+
+		
+/*brought section*/
+#brought-section{background:url(../assets/background/brought.png) top center no-repeat; height:400px; padding-top:150px; font-family:'Gotham-Light'; text-align:center; color:#fff;}
+#brought-section .inner-div{ width:588px; margin:0 auto;}
+#brought-section .inner-div .heading{font-size:44px; font-family:'Gotham-Light'; color:#fff;}
+#brought-section .inner-div .fitly-logo{ height:120px; margin-top:20px;}
+#brought-section .inner-div .text-content{font-size:18px; line-height:35px; color:#fff; font-family: 'GothamBook';}
+/*brought section close*/
+
+/*footer logo section */
+	#footer-logo-section{background:#fff; height:175px; border-bottom:1px solid #ccc; padding: 0 5px}
+	#footer-logo-section ul{ list-style-type:none;}
+	#footer-logo-section ul li{ display:inline-block; margin:20px 25px;}
+	#footer-logo-section ul li a img{ border:0px;}
+/*footer logo section close*/
+
+/*footer section */
+#footer-section{background:#fff; height:90px; border-bottom:1px solid #ccc;}
+#footer-section .logo-footer{ height:95px; max-width:1280px; margin:0 auto; font-family: 'Gotham-Medium';}
+#footer-section .logo{ float:left; margin:27px 0; width:245px;}
+#footer-section .logo img{ max-width:100%; height:auto;}
+#footer-section .logo a img { border:0px;}
+#footer-section .links{ margin:0px; padding:0px; float:left;}
+#footer-section .links ul{ list-style-type:none; }
+#footer-section .links ul li{display:inline-block; font-size:13px; line-height:90px; margin-right:30px;}
+#footer-section .links ul li a{text-decoration:none; color:#432072; letter-spacing:1px;}
+#footer-section .links ul li:last-child{ margin-right:0px;}
+
+#footer-section .social-icons{height:31px; width:auto; float:right; margin:17px 0; padding:11px 28px; cursor:pointer;}
+#footer-section .social-icons ul{ list-style-type:none;}
+#footer-section .social-icons ul li{ display:inline-block;}
+#footer-section .social-icons ul li a img{ border:0px;}
+/*footer section close*/
+
+/*SCIENCE page css start */
+	
+/*header css */
+#science-header{background:url(../assets/background/science-header.jpg) top center no-repeat; height:460px; padding-top:90px; font-family:'Gotham-Light';color:#fff; background-size:cover;}
+
+#science-header .center-div{max-width:700px; margin:0 auto; text-align:center;}
+#science-header .center-div .heading1{font-size:40px; line-height:80px;}
+#science-header .center-div .heading2{line-height:35px; font-size:18px;}
+
+/*header css close */
+
+
+#plate-overlap-section{background:#fff; height:300px; width:100%; position:relative;}
+#plate-overlap-section .palte-over-div{ text-align:center; width:100%;position:absolute; display:block; top:-260px;}
+
+#plate-overlap-section .palte-over-div img{ max-width:100%; height:auto;}
+
+
+
+
+/*SCIENCE page smart palte work*/
+#science-smartplate{border-bottom:1px solid #dac7f8; border-top:1px solid #dac7f8; background:#fff; height:440px;font-family:'Gotham-Medium';}
+#science-smartplate .inner-block{ max-width:970px; margin:0 auto; width:100%;}
+#science-smartplate .inner-block .col-3{ width:27%; float:left;  margin:10px 70px 10px 10px; text-align:center; position:relative;}
+#science-smartplate .inner-block .col-3.lastmargin{ margin-right:0px !important;}
+#science-smartplate .inner-block .col-3 .num{ position:absolute; width:30px; height:30px; border-radius:30px; border:1px solid #dac7f8; 
+top:-26px;
+font-size:12px;
+color:#432072;
+background:#fff;
+margin:0 auto;
+line-height:30px;
+left:0;
+right:0;
+}
+
+#science-smartplate .inner-block .col-3 .product-img{ line-height:30px; margin-top:45px; vertical-align:top;}
+#science-smartplate .inner-block .col-3 .prod-name{ color:#3a175f; font-size:21px; line-height:40px;}
+#science-smartplate .inner-block .col-3 .text-details {
+    color: #48444c;
+    font-size: 17px;
+	line-height:35px;
+	font-family:'Gotham-Light';
+}
+/*SCIENCE page smart palte work close*/
+
+/*2 column divide*/
+#science-col2{font-family:'Gotham-Light'; text-align:center; color:#fff; width:100%; height:474px;}
+#science-col2 .left-block-div{ float:left; width:50%; height:auto;}
+#science-col2 .left-block-div img{ max-width:100%; height:auto;}
+#science-col2 .right-block-div{float:left; width:50%; background:#490d67; height:474px;}
+#science-col2 .right-block-div .center-div{ margin:0 auto; max-width:506px; text-align:center; padding-top:91px;}
+#science-col2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
+#science-col2 .right-block-div .center-div .text{ font-size:24px; line-height:40px;}
+#science-col2 .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  font-family: 'Gotham-Medium'; letter-spacing:1px;}
+/*2 column divide close*/
+/*SCIENCE page css start close*/
+
+
+/* team page css*/
+#team-header{background:url(../assets/background/team-page.jpg) top center no-repeat; height:355px; font-family:'Gotham-Light';color:#fff; font-size:40px; line-height:300px; width:100%;}
+
+/* row one */
+#team-body-col{font-family:'Gotham-Light'; text-align:left; width:100%; height:474px;}
+#team-body-col .left-block-div{ float:left; width:50%; height:auto; position:relative;}
+#team-body-col .left-block-div .over-img{position:absolute; right:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
+#team-body-col .left-block-div .over-img-top{ display:none;}
+#team-body-col .left-block-div img{ max-width:100%; height:auto; vertical-align:top;}
+#team-body-col .right-block-div{float:left; width:50%; background:#ffffff; height:496px;}
+#team-body-col .right-block-div .center-div{ margin:0 auto; max-width:506px; padding-top:91px;}
+#team-body-col .right-block-div .center-div .img-div{ margin-bottom:25px;}
+#team-body-col .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
+#team-body-col .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
+#team-body-col .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
+/* row one close */
+
+
+/* row 2 */
+
+
+
+#team-body-col-row2{color:#fff; width:100%; height:485px; font-family:'Gotham-Light'; text-align:left;}
+#team-body-col-row2 .left-block-div{ float:right; width:50%; height:auto; position:relative;}
+#team-body-col-row2 .left-block-div img{ max-width:100%; height:auto;}
+#team-body-col-row2 .left-block-div .over-img{position:absolute; left:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
+#team-body-col-row2 .left-block-div .over-img{position:absolute; left:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
+#team-body-col-row2 .left-block-div .over-img-top{ display:none;}
+#team-body-col-row2 .right-block-div{float:left; width:50%; background:#eeeeef; height:498px;}
+#team-body-col-row2 .right-block-div .center-div{ margin:0 auto; max-width:506px;  padding-top:91px;}
+#team-body-col-row2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
+#team-body-col-row2 .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
+#team-body-col-row2 .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
+#team-body-col-row2 .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
+/* row 2 close */
+
+
+/* team page css close*/
+
+
+/* faq page css*/
+#faq-header{background:url(../assets/background/faq-header.jpg) top center no-repeat; height:355px; font-family:'Gotham-Light'; width:100%;  color:#fff; font-size:40px; line-height:300px;}
+
+.expand-area{max-width:715px; margin:0 auto; padding-top:65px;}
+.accord ul, .accord ul li {
+	list-style-type: none;
+	color:#490d67;
+	font-size:24px;
+	line-height:85px;
+	font-family: 'Gotham-Bold';
+	/*margin-bottom:42px;*/
+	
+}
+
+.accord ul li a {
+	color: #490d67;
+	text-decoration: none;	
+}
+
+.accord ul li span {
+	color: #490d67;
+	margin-left: 10%;
+	cursor: pointer;	
+	float:right;
+	font-weight:normal;
+	font-family:arial;
+	font-size:40px;
+	
+}
+
+.pl-20 {
+	margin:0px;
+	color:#48444c;
+	font-size:18px;
+	line-height:34px;
+	font-weight:normal;	
+	font-family:'Gotham-Light';
+	margin-bottom:20px;
+}
+.pl-20 strong{ font-size:21px; color:#490d67;  font-family: 'Gotham-Medium';}
+/* faq page css close*/
+
+/* blog page css*/
+.blog-container{ width:100%; background-color:#eee; float:left;}
+.blog-container .inner-container{ max-width:1009px; width:100%; margin:0 auto; padding-top:45px;}
+.blog-container .inner-container .left-div{ max-width:760px; width:100%; float:left;}
+
+.blog-container .inner-container .left-div .block{ max-width:230px; padding-bottom:10px; float:left; margin:0 10px 20px; background:#ffffff; width:100%;border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; -khtml-border-radius: 6px; -o-border-radius: 6px; overflow: hidden; position:relative;}
+
+.blog-container .inner-container .left-div .block .img-responsive{ width:230px; height:auto; overflow:hidden;  border-radius: 6px 6px 0px 0px;
+-moz-border-radius: 6px 6px 0px 0px;
+-webkit-border-radius: 6px 6px 0px 0px;
+}
+
+.blog-container .inner-container .left-div .block .img-responsive img{ max-width:100%; height:auto; background-size:cover; z-index: -1; display: block; margin:0 auto;}
+
+.blog-container .inner-container .left-div .block .img-responsive .hover-block{position:absolute; width:78px; background:#6741dc; border-radius:4px; height:17px; left:24px; top:24px; font-size:10px; color:#ffffff; text-align:center; line-height:16px; cursor:pointer;}
+.blog-container .inner-container .left-div .block  .heading{ padding:10px 20px; font-size:15px; font-family: 'Gotham-Bold'; color:#490e67; letter-spacing:1px;}
+.blog-container .inner-container .left-div .block  .text-details{padding:0px 20px; font-size:14px; color:#716f75; font-family:'Gotham-Light'; font-weight:normal; line-height:20px;}
+.blog-container .inner-container .left-div .load-more{background:#b8c6c7; text-align:center; max-width:740px; float:left; width:100%;
+-webkit-border-radius:6px; -moz-border-radius:6px; -khtml-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; height:45px; line-height:45px; margin:15px 0 45px 0; color:#fff; font-size:15px;  font-family: 'MyriadPro-Regular';
+}
+.blog-container .inner-container .left-div .load-more a{ text-decoration:none; color:#fff;}
+
+
+.blog-container .inner-container .right-div{ max-width:216px; float:right; width:100%;}
+.blog-container .inner-container .right-div .catg{ background:#fff; -webkit-border-radius:6px; -moz-border-radius:6px; -khtml-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; padding:1px 0 10px 20px; margin-bottom:25px;}
+
+.blog-container .inner-container .right-div .catg ul{ list-style-type:none;}
+.blog-container .inner-container .right-div .catg ul li{ list-style-type:none; line-height:40px; font-size:15px; color:#716f75; font-family: 'Gotham-Bold';}
+.blog-container .inner-container .right-div .catg h2{ line-height:40px; color:#8446e9; font-family: 'Gotham-Bold'; font-weight:normal; }
+.blog-container .inner-container .right-div .catg ul li a{color:#716f75; text-decoration:none;}
+
+/* blog page css close*/
+
+/* past-article page css*/
+#post-article-header{background:url(../assets/background/post-article.jpg) top center no-repeat; height:236px; font-family:'Gotham-Light'; width:100%;  color:#fff; font-size:40px; padding-top:120px;}
+#post-article-header .center-div-block{ max-width:670px; margin:0 auto;}
+#post-article-header .center-div-block .heading{ font-size:48px; text-align:center; margin-bottom:85px; line-height:55px;}
+#post-article-header .center-div-block .normal-heading{ font-size:12px; letter-spacing:1px; text-align:center;}
+
+.post-article{ max-width:620px; width:100%; background:#fff; float:left; padding:60px 70px; -webkit-border-radius:6px; -moz-border-radius:6px; -khtml-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; margin-bottom:40px;}
+.post-article .center-img{ text-align:center; margin:50px 0;}
+.post-article .center-img img{ max-width:100%; height:auto;}
+.post-article  h1{ color:#490d67; font-size:24px; line-height:30px; font-family: 'Gotham-Bold';}
+.post-article  h2{ font-size:21px; color:#490d67; font-family: 'Gotham-Medium'; line-height:50px;}
+.post-article p{ font-size:18px; color:#48444c; line-height:30px;}
+/* past-article page css close*/
+.responsive-menu{ display:none;}
+
+/* contact us page css*/
+.order-now2{ height:14px !important; padding:18px 28px !important; margin-top:23px !important;}
+#contactus-header{background:url(../assets/background/contactus.jpg) top center no-repeat; height:355px; font-family:'Gotham-Light'; width:100%;color:#fff; font-size:40px; line-height:300px;}
+#contactus-header .center-div{max-width:370px; margin:0 auto;}
+.contact-container{max-width:700px; margin:0 auto;}
+.contact-container p{ font-size:24px; line-height:40px; font-family:'Gotham-Light'; text-align:center; margin:50px 0; color:#353252;}
+
+.contact-container .email-block{ max-width:484px; margin:17px auto; background:#490d67; height:25px; border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; padding:12px 23px; line-height:25px; font-family: 'Gotham-Bold'; color:#ffffff; font-size:14px; cursor:pointer;}
+.contact-container .email-block .mail-icon { float:left; width: 50px;}
+.contact-container .email-block .email{ float:left;}
+.contact-container .email-block .arrow-right{ float:right;}
+.contact-container .mesage{ text-align:center; font-size:14px; color:#490d67; font-family: 'Gotham-Bold'; margin-top:34px; margin-bottom:27px;}
+.contact-container .query-form{max-width:551px; margin:0 auto; font-family: 'GothamBook';}
+
+.contact-container .query-form .fname-lname{max-width:232px; width:100%;  border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; height:51px; border:1px solid #30343b; display:inline-block; margin:8px; line-height:50px; padding-left:18px; padding-right:5px;}
+::-moz-placeholder{ color:#2b2b2b;}
+.contact-container .query-form .fname-lname input{ background:none; border:none; font-size:16px; font-family: 'GothamBook';  width:100%; outline:none; }
+
+
+.contact-container .query-form .message-box{max-width:511px; width:100%;  border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; height:140px; border:1px solid #30343b; display:inline-block; margin:8px; padding-left:18px; padding-top:10px; padding-right:5px;}
+.contact-container .query-form .message-box textarea{background:none; border:none; font-size:16px; font-family: 'GothamBook';  width:100%; outline:none; height:140px; line-height:25px;}
+
+.contact-container .query-form .send-btn{ background:#52186e; display:inline-block; width:130px; height:51px; clear:both; margin-left:8px; margin-bottom:65px; border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; text-align:center; cursor:pointer;}
+.contact-container .query-form .send-btn input{ background:none; border:none; font-size:16px;  color:#fff; line-height:50px; cursor:pointer;}
+/* contact us page css close*/
+
+/* sign up page css*/
+.signup-container{width:100%; border-top:1px solid #dac7f8; border-bottom:1px solid #cccccc; float:left;}
+.signup-container .center-block{ max-width:1050px; margin:0 auto; padding:50px 0 73px 0; text-align:center;}
+.signup-container .center-block .heading1{ font-size:40px; color:#351558; line-height:65px;}
+.signup-container .center-block .heading2{ color:#48444c; font-size:18px; line-height:40px;}
+
+.signup-container .center-block .col1{ max-width:491px; width:100%; margin:15px; text-align:center; float:left;}
+.signup-container .center-block .col1 .heading{ font-size:24px; color:#490e67; font-family: 'Gotham-Bold'; text-align:center; height:50px;}
+
+.signup-container .center-block .col1 .box{max-width:411px; width:100%; border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px;  border:1px solid #30343b; padding:40px;}
+
+.signup-container .center-block .col1 .box .fname-lname{max-width:384px; width:100%;  border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; height:51px; border:1px solid #30343b; display:inline-block; margin:8px 0; line-height:50px;
+padding-left:18px; padding-right:5px;}
+
+::-moz-placeholder{ color:#2b2b2b;}
+
+.signup-container .center-block .col1 .box .fname-lname input{ background:none; border:none; font-size:16px; font-family: 'GothamBook';  width:100%; outline:none; } 
+.signup-container .center-block .col1 .box .fname-lname.border-none{ border:0px !important; font-size:17px !important; font-weight:bold; line-height:70px;}
+.signup-container .center-block .col1 .box .fname-lname.border-none a{ text-decoration:none;  color:#490d67;}
+
+.signup-container .center-block .col1 .box .sign-up-btn{background:#52186e;  width:407px; height:51px; border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; text-align:center; cursor:pointer; margin-top:4px;}
+.signup-container .center-block .col1 .box .sign-up-btn input{background:none; border:none; font-size:18px; font-family: 'Gotham-Bold';  color:#fff; line-height:50px; cursor:pointer;}
+/* sign up page css close*/
+
+/* product page css*/
+	.product-container{max-width:970px; margin:0 auto; padding:35px 0 73px 0;}
+	.product-container .top-back{ font-size:14px; color:#490d67; font-family: 'Gotham-Medium'; line-height:25px; margin-bottom:35px; cursor:pointer;}
+	.product-container .top-back span{ font-size:24px;}
+	.product-block{ max-width:580px; margin-right:30px; float:left;width:100%; font-family: 'GothamBook';}	
+	.product-block .img-product{border:1px solid #cecece; width:100%; height:auto; margin-bottom:30px;}
+	.product-block .img-product img{ max-width:100%; height:auto;}
+	.product-block h1{ font-size:24px; color:#490d67; line-height:55px; }
+	.product-block  p{color:#5a5a5a; font-size:16px; line-height:30px;}
+	
+	.order-info{ max-width:330px; margin-right:30px;float:right; width:100%;}
+	.order-info .heading{ font-size:29px; color:#490d67; font-family: 'Gotham-Bold'; margin:0px; padding:0px;}
+	.order-info .heading2{color:#ee3d3d; font-family: 'GothamBook'; font-size:14px; line-height:30px;}
+	.order-info .quantity-box-left{max-width:132px; width:100%; float:left; margin-top:25px; font-family: 'GothamBook';}
+	.order-info .quantity-box-left .name{ font-size:14px; color:#5a5a5a;  line-height:30px;}
+    .order-info .quantity-box-left .custom-dropdown-div{ width:132px; margin-bottom:30px;}
+	.order-info .quantity-box-left .custom-dropdown-div .custom-dropdown{
+	-webkit-appearance: none;
+	-moz-appearance: none;	
+	font-size:18px; color:#5a5a5a;
+	height:38px;
+	padding:9px;
+	width:100%;
+	cursor: pointer;
+	border:1px solid #959595;
+	background:url(../assets/drop-down-arrow.png) no-repeat right center;
+	background-size: 40px 37px;
+	border-radius:8px;
+	}
+
+
+.order-info .quantity-box-right{max-width:132px; width:100%; float:right; margin-top:25px; font-family: 'GothamBook';}
+.order-info .quantity-box-right .name{ font-size:14px; color:#5a5a5a;  line-height:30px;}
+.order-info .quantity-box-right .custom-dropdown-div{ width:132px; margin-bottom:30px;}	
+.order-info .quantity-box-right .custom-dropdown-div .custom-dropdown{
+	-webkit-appearance: none;
+	-moz-appearance: none;	
+	font-size:18px; color:#5a5a5a;
+	height:38px;
+	padding:9px;
+	width:100%;
+	cursor: pointer;
+	border:1px solid #959595;
+	background:url(../assets/drop-down-arrow.png) no-repeat right center;
+	background-size: 40px 37px;
+	border-radius:8px;
+}
+.order-info .add-cart{background:#52186e;  width:132px; height:45px; border-radius:8px; -webkit-border-radius:8px;-moz-border-radius:8px; -o-border-radius:8px; text-align:center; cursor:pointer; margin-top:0px; float:left;}	
+.order-info .add-cart input{background:none; border:none; font-size:14px;  font-family: 'GothamBook';  color:#fff; line-height:44px; cursor:pointer;}	
+
+.product-container .prod-heading{text-align:center; margin-top:80px; line-height:150px; font-size:24px; color:#490d67; font-family: 'GothamBook';}
+
+
+.product-container .prod-box{max-width:301px; float:left; width:100%; margin:10px;}
+.product-container .prod-box .responsive-img{border:1px solid #ccc; text-align:center;}
+.product-container .prod-box .responsive-img img{ max-width:100%; height:auto;}
+.product-container .prod-box .product-details{ text-align:left; font-family: 'GothamBook';}
+.product-container .prod-box .product-details h1{ color:#490d67; font-size:18px; font-family: 'Gotham-Bold'; line-height:30px; margin-top:10px;}
+.product-container .prod-box .product-details h2{ font-size:18px; color:#490d67;}
+.product-container .prod-box .product-details h4{ font-size:14px; color:#858486; line-height:50px; font-weight:normal;}
+
+
+.product-container .prod-box2{}
+.product-container .prod-box2 .responsive-img{border:1px solid #ccc; text-align:center;}
+.product-container .prod-box2 .responsive-img img{ max-width:100%; height:auto;}
+.product-container .prod-box2 .product-details{ text-align:left; font-family: 'GothamBook';}
+.product-container .prod-box2 .product-details h1{ color:#490d67; font-size:18px; font-family: 'Gotham-Bold'; line-height:30px; margin-top:10px;}
+.product-container .prod-box2 .product-details h2{ font-size:18px; color:#490d67;}
+.product-container .prod-box2 .product-details h4{ font-size:14px; color:#858486; line-height:50px; font-weight:normal;}
+.product-container .filter-tab{margin:0 auto; text-align:center; width:565px; margin-bottom:50px;}
+
+.product-container .last-text{ width:100%; margin:50px 0 30px; display:inline-block;}
+
+.product-container .last-text .inner-div{ max-width:802px; text-align:center; margin:0 auto;  font-size:24px; color:#7a7c7e; line-height:35px; font-family: 'GothamBook'; font-weight:normal;}
+.product-container .last-text .inner-div a{color:#50176d; text-decoration:none;}
+
+/* product page css close*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+RewriteEngine on
+#Redirect 301 / http://192.185.27.102/~getsmartplate/signup
+Redirect 301 / https://www.kickstarter.com/projects/1816678675/smartplate-instantly-track-and-analyze-everything
