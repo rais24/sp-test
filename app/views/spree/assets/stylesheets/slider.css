@@ -1,0 +1,12 @@
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn{	position: absolute; cursor: pointer; display: block;  background: url(../images/a17.png) no-repeat; overflow:hidden;}
+.jssora05l { background-position: -8px -11px; }
+.jssora05r { background-position: -105px -11px; }
+/*.jssora05l:hover { background-position: -130px -40px; }*/
+/*.jssora05r:hover { background-position: -190px -40px; }*/
+.jssora05ldn { background-position: -250px -40px; }
+.jssora05rdn { background-position: -310px -40px; }
+.img-layer{text-align:center; position:absolute; font-size:25px; color:#fff; width:100%; top:160px;}
+.img-layer .center-div-block{ margin: 0 auto;    max-width: 670px; overflow:hidden; z-index:-1px;}
+.img-layer .center-div-block .heading{ font-size:48px; text-align:center; margin-bottom:20px; line-height:55px;}
+.img-layer .center-div-block .heading2{ font-size:18px; text-align:center; margin-bottom:160px; line-height:30px;}
+.img-layer .center-div-block .normal-heading{ font-size:12px; letter-spacing:1px; text-align:center;}

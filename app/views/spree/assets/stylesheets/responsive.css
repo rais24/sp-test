@@ -1,0 +1,255 @@
+@media all and  (max-width: 320px){
+#client-section{ height:auto;}
+
+}
+
+@media all and (max-width: 320px) and (min-width: 300px) {
+#smartplate-work .inner-container .col-3{width: 26% !important;}
+.signup-container .center-block .heading1{ font-size: 32px !important;}
+.signup-container .center-block .col1 .box .fname-lname.border-none{ font-size:14px !important;}
+.product-container .prod-box2 .product-details h4{ font-size:12px !important;}
+}
+
+@media all and (max-width: 385px) and (min-width: 321px) {
+#smartplate-work .inner-container .col-3{width: 27% !important;}
+}
+
+@media all and (max-width: 480px) and (min-width: 385px) {
+	#smartplate-work .inner-container .col-3{width: 28% !important;}
+}
+
+
+@media all and  (max-width: 360px){
+#help-section .heading1{margin-top: 210px !important;}
+#plate-overlap-section .palte-over-div{ top:-135px;}
+#science-header{ padding-top:23px;}
+#help-section .palte-over-div{ top:-120px;}
+#smartplate-work .inner-container .col-3 .prod-name{ font-size:11px !important;}
+#smartplate-work .inner-container{ width:auto;}
+#brought-section .inner-div .text-content{ line-height:23px;}
+#contactus-header .center-div{ font-size:34px; text-align:center;}
+}
+@media all and  (max-width: 480px){
+#smartplate-work .inner-container{ width:auto;}	
+#help-section .palte-over-div{ top:-120px;}
+#help-section .heading1{ margin-top:130px;}
+#balanced-section .div-center .icon-div ul li{margin: 22px 3px !important;}
+#balanced-section .div-center p{ line-height:30px;}
+#client-section ul li{ display:block;}
+.pl-20 strong{ font-size:12px;}
+.accord ul, .accord ul li{ font-size:12px!important; padding:0 2px!important;}
+.pl-20{ font-size:12px;}
+.accord ul li span{font-size: 38px;}
+#all-colours .heading{ font-size:41px;}
+#balanced-section{ min-height:565px;}
+#brought-section{ min-height:440px;}
+#help-section .palte-over-div img{ height:250px; width:250px;}
+#plate-overlap-section img{ height:250px; width:250px;}
+#plate-overlap-section{ height:150px;}
+#plate-overlap-section .palte-over-div{ top:-135px;}
+#team-header{ line-height:auto; font-size:17px !important;}
+#faq-header{ font-size:21px;}
+#post-article-header .center-div-block .heading{ line-height:40px;}
+.product-container .top-back{ text-align:center;}
+.product-block p{ text-align:center;}
+.order-info .heading{ text-align:center;}
+.order-info .heading2{ text-align:center;}
+.order-info .add-cart{ width:100%;}
+.product-block .img-product{ width:auto;}
+#portfoliolist .portfolio{ width:80% !important; display:block !important; float:none !important; margin:0 auto !important;}
+}
+
+@media all and (max-width: 639px) and (min-width: 320px) {
+.blog-container .inner-container .left-div{ float:none;}
+.blog-container .inner-container .left-div .load-more{ float:none;  margin: 15px 0 20px;}
+.blog-container .inner-container .left-div .block{ margin:10px auto; float:none;}
+#post-article-header .center-div-block .heading{ font-size:25px !important;}
+#intro-section .left-div{ display:none;}
+#intro-section .right-div{ display:none;}
+#intro-section .center-div .inner-div h4{ padding-top:27px;}
+#intro-section .center-div .inner-div h1{ line-height:45px;}
+#intro-section .center-div .inner-div{ width:auto;}
+#help-section .heading2{ line-height:48px; font-size:34px;}
+#connect-analyze-section{ height:auto;}
+#connect-analyze-section .heading2{ line-height:50px; font-size:38px;}
+#connect-analyze-section .div-center .icon-div ul li{ margin:0px;}
+#balanced-section .div-center .icon-div ul li{ font-size:10px; line-height:25px; }
+#balanced-section .heading2{ line-height:50px;}
+#balanced-section{ padding-top:40px;}
+#designer-success-section .heading2{ line-height:50px; font-size:37px;}
+#brought-section .inner-div{ width:auto;}
+.accord ul, .accord ul li{ font-size:21px;}
+#team-body-col .right-block-div .center-div .text{ line-height:26px;}
+#team-body-col-row2 .right-block-div .center-div .text{ line-height:26px;}
+#smartplate-work .inner-container .col-3{ width:29%;}
+#smartplate-work .inner-container .col-3 .prod-name{ font-size:12px;}
+.product-block{ width:80%;}
+.product-container .prod-box2 .product-details h4{ font-size:13px;}
+}
+
+@media all and (max-width: 560px) and (min-width: 320px) {
+.contact-container .query-form{ text-align:center;}
+.contact-container .query-form .fname-lname{ width:85%; margin:8 auto; max-width:none;}
+.contact-container .query-form .message-box	{width:85%; margin:8 auto; max-width:none;}
+.signup-container .center-block .col1{ float:none; max-width:none; float:none; width:auto;}
+.signup-container .center-block .col1 .box{ max-width:none; width:auto;}
+.signup-container .center-block .col1 .box .fname-lname{ max-width:none; width:92%;}
+.signup-container .center-block .col1 .box .sign-up-btn{ width:auto;}
+.signup-container .center-block .heading1{ font-size:36px;}
+.order-info{ max-width:300px;}
+.product-block h1{ font-size:18px; text-align:center;}
+.product-container .filter-tab{ width:auto;}
+#filters li{ float:none !important;}
+}
+
+@media all and (max-width: 1044px) and (min-width: 561px) {
+	.signup-container .center-block .col1{ max-width:none;}
+	.signup-container .center-block .col1 .box{ margin:0 auto;}
+}
+@media all and (max-width: 980px) and (min-width: 320px) {
+#team-body-col .left-block-div{ float:none; width:auto; text-align:center;}
+#team-body-col .left-block-div .over-img{ display:none;}
+#team-body-col .right-block-div{ width:auto; text-align:center; height:auto; margin-bottom:20px; float:none;}
+#team-body-col-row2 .left-block-div{ float:none; width:auto; text-align:center;}
+#team-body-col-row2 .left-block-div .over-img{ display:none;}	
+#team-body-col .left-block-div .over-img-top{display:block; position:absolute; right:0px; left:0px; bottom:0px; margin:0 auto; bottom:-3px; }
+#team-body-col-row2 .left-block-div .over-img-top{ display:block; position:absolute; right:0px; left:0px; bottom:0px; margin:0 auto; bottom:-3px;}
+#team-body-col-row2 .left-block-div img{ vertical-align:bottom;}
+#team-body-col-row2 .right-block-div{ width:auto; text-align:center; height:auto; float:none;}
+#team-body-col .right-block-div .center-div{ padding-top:30px;}
+#team-body-col-row2 .right-block-div .center-div{ padding-top:30px;}
+#team-body-col{ height:auto;}
+#team-body-col-row2{ height:auto;}
+#science-col2{ height:auto;}
+#science-col2 .left-block-div{ width:auto; float:none;}
+#science-col2 .right-block-div{ float:none; width:auto;}
+#science-col2 .right-block-div .center-div{ padding-top:50px;}
+#science-header .center-div .heading1{ line-height:40px;}
+#science-smartplate .inner-block .col-3{ width:auto; margin:0; float:none;}
+#science-smartplate .inner-block .col-3 .num{ top:-40px;}
+#science-smartplate{ border:0px; height:auto;}
+#science-col2{ height:auto;}
+#science-col2 .right-block-div .center-div .img-div{ margin-bottom:6px;}
+#footer-logo-section ul li{ text-align:center; margin:0px; display:block;}
+#help-section .col-3 .inner-col{ margin:0 auto; float:none;}
+#help-section{ height:auto;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 320px) {
+#logo-header{ min-height:190px;}	
+#logo-header .logo{ text-align:center; float:none; width:auto; margin:10px 0;}
+#nav{ display: none;}
+#order-now{ margin:0 auto; float:none;}	
+.responsive-menu{ display:block; margin:0 auto 12px; text-align:center; }
+.responsive-menu select{ padding:0 10px; width:99%; height:48px; border:1px solid #ccc; font-size:18px; color:#432072; font-family: 'Gotham-Medium';}
+.responsive-menu select option{font-family: 'Gotham-Medium'; font-size:18px; color:#000; background:#f2f2f2; padding:5px; cursor:pointer;}
+.responsive-menu select option:hover{ background:#000;}
+#client-section{ height:auto;}
+#footer-logo-section{ height:auto; padding:0px;}
+#footer-section{ height:auto; border:0px;}
+#footer-section .links{ float:none;}
+#footer-section .social-icons{ float:none; text-align:center;}
+#footer-section .logo{ text-align:center; float:none; width:auto;}
+#footer-logo-section ul li{ margin: 20px 3px;}
+#footer-section .links ul li{ text-align:center; margin:0px; display:block; border-top:1px solid #ccc; line-height:50px;}
+#footer-section .links ul li:last-child{ border-bottom:1px solid #ccc;}
+#science-header{ background-position:right;}
+#faq-header{ background-position:right; line-height:auto; text-align:center;}
+#team-header{ background-position:right; text-align:center; line-height:auto;}
+#team-body-col-row2{ height:auto;}
+#team-body-col{ height:auto;}
+#team-body-col-row2 .right-block-div{ height:371px !important;}
+#team-body-col .right-block-div{ height:371px !important;}
+#science-col2{ height:auto;}
+#science-col2 .left-block-div{ width:auto; float:none;}
+#science-col2 .right-block-div{ width:auto; float:none;}
+#intro-section .left-div{ max-width:200px;}
+#intro-section .right-div{ max-width:200px;}
+#intro-section .center-div{ max-width:600px;}
+#intro-section .center-div .inner-div{ width:auto;}
+#intro-section .center-div .inner-div h1{ line-height:45px;}
+#intro-section .center-div .inner-div h4{ padding-top:25px;}
+#balanced-section{ background-position:right;}
+#all-colours .center-div ul li img{ height:175px; width:192px;}
+#brought-section{ background-position:right; padding:0px;}
+#science-col2 .left-block-div img{ vertical-align:bottom;}
+#contactus-header{ background-position:right;}
+
+}
+
+
+@media all and (max-width: 800px) and (min-width: 320px) {
+#intro-section .left-div{ display:none;}
+#intro-section .right-div{ display:none;}
+#help-section{ height:auto;}
+#intro-section .center-div{ float:none;}
+#connect-analyze-section{ height:auto;}
+#connect-analyze-section .heading2{ line-height:50px;}
+#connect-analyze-section{ padding-top:50px;}
+#balanced-section .div-center .icon-div ul li{margin: 50px 22px;}
+#designer-success-section .div-center .left-div{ max-width:none; float:none; text-align:center;}
+#designer-success-section{ height:auto;}
+#designer-success-section .div-center .right-div{ float:none; max-width:none;}
+#smartplate-work .inner-container{ width:auto;}
+.blog-container .inner-container .right-div{ float:none; margin:0 auto; max-width:none; display:inline-block; text-align:center;}
+.blog-container .inner-container .right-div .catg ul li{ border-bottom:1px solid #ccc; padding:0 10px;}
+.blog-container .inner-container .right-div .catg{ padding:0px;}
+#all-colours{ height:auto;}
+#all-colours .center-div ul li{ display:block;}.
+#balanced-section{height:auto;}
+#header-section .text-container{ top:80px;}
+#header-section .h1{ line-height:50px; font-size:36px;}
+#header-section .h2{ line-height:34px;}
+#header-section .slide-div img{ bottom:50px;}
+#smartplate-work .inner-container .center-btn{ width:218px; font-size:12px; height:16px;}
+.post-article{ margin:10px; float:none; max-width:none; width:auto; padding:10px;}
+.product-container .prod-box .product-details h4{ font-size:11px;}
+}
+
+@media all and (max-width: 680px) and (min-width: 320px) {
+#post-article-header .center-div-block .heading{
+	font-size:35px;
+}	
+#team-header{ font-size:34px;}
+.product-container .prod-box{ float:none; width:auto; margin:10px auto;}
+}
+
+
+@media all and (max-width: 768px) and (min-width: 640px) {
+
+.blog-container .inner-container .right-div .catg{ padding:0px;}
+.blog-container .inner-container .right-div .catg ul li{ border-bottom:1px solid #ccc; padding:0 10px;}
+}
+	
+@media all and (max-width: 1280px) and (min-width: 1025px) {
+#footer-logo-section{ padding:0px;}	
+#team-body-col-row2{ height:485px;}
+#team-body-col .right-block-div{ height:375px;}
+#team-body-col-row2 .right-block-div{ height:472px;}
+#team-body-col{ height:auto;}
+#science-col2 .left-block-div img{ height:474px; vertical-align:bottom;}
+#intro-section .center-div{ max-width:690px;}
+#intro-section .center-div .inner-div h1{ line-height:50px;}
+#intro-section .center-div .inner-div h4{ padding-top:50px;}
+}
+
+@media all and (max-width: 1280px) and (min-width: 980px) {
+#intro-section .center-div{max-width: 570px;}
+#team-body-col .right-block-div{ height:470px;}
+}
+
+@media all and (max-width: 969px) and (min-width: 320px) {
+	
+	.product-block{ margin:0 auto; float:none;}
+	.order-info{ margin:40px auto; float:none; width:auto;}
+	
+}
+
+
+
+@media all and (max-width: 801px) and (min-width: 768px) {
+.product-container .prod-box{ max-width:235px;}
+#portfoliolist .portfolio{ max-width:235px !important;}
+.product-container .prod-box2 .product-details h2{ height:11px; line-height:25px;}
+.product-container .prod-box2 .product-details h4{ line-height:22px; margin-top:15px;}
+}

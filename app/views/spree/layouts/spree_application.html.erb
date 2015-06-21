@@ -4,24 +4,32 @@
 <!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
-  <head data-hook="inside_head">
+  
+   <head data-hook="inside_head">
    
   </head>
+  
   <body>
     <%= render partial: 'spree/shared/google_analytics.js' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   
   <%= csrf_meta_tags %>
     <div class="container">
 	
 	<!-- top header -->
  
   <!-- top header close --> 
-	     
-        
-        <%= render "layouts/header" %>
+<%= render "layouts/header" %>
 <%=yield %>
 <%= render "layouts/footer" %>
+
+
+
+      
+         
+      
+       
       </div>
     </div>
   </body>
