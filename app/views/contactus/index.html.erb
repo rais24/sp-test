@@ -30,16 +30,35 @@
           </div>            
             
             <div class="mesage">SEND US A MESSAGE</div>
-            <form action="#" method="post">
+            <%= simple_form_for @contactus,
+:url => url_for(:action => 'create', :controller => 'contactus'),
+  :html => {:class => 'form-horizontal' } do |f| %>
             <div class="query-form">
-            	<div class="fname-lname"><input type="text" name="fname" placeholder="First Name" /></div>
-                <div class="fname-lname"><input type="text" name="lname" placeholder="Last Name" /></div>
-                <div class="fname-lname"><input type="text" name="email" placeholder="Email Address" /></div>
-                <div class="fname-lname"><input type="text" name="phone" placeholder="Phone Number" /></div>
-                <div class="message-box"><textarea placeholder="Message"></textarea></div>
-                <div class="send-btn"><input  type="button" value="Send" /></div>
+            	<div class="fname-lname">
+				
+				<%= f.input :firstname, label: false,:wrapper => false,:placeholder => "First Name", :required => true %>
+				</div>
+                <div class="fname-lname">
+				<%= f.input :lastname, label: false,:wrapper => false, :placeholder => "Last Name", :required => true %>
+				
+				</div>
+                <div class="fname-lname">
+				<%= f.input :email, label: false,:wrapper => false, :placeholder => "Email", :required => true %>
+				
+				</div>
+                <div class="fname-lname">
+				<%= f.input :phone,label: false,:wrapper => false, :placeholder => "Phone", :required => true %>
+				
+				</div>
+                <div class="message-box">
+				<%= f.input :message,label: false,:wrapper => false, :placeholder => "Message", :as => :text, :required => true %>
+				
+				</div>
+                <div class="send-btn">
+				<%= f.button :submit, 'Send',label: false,:wrapper => false, :class=> "btn btn-primary" %>
+				</div>
             </div>
-            </form>
+            <% end %>
             
             
         </div>
@@ -59,6 +78,7 @@
 
    
     <!--2 column divide --> 
+
 
 
    

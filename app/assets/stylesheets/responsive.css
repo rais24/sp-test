@@ -3,6 +3,14 @@
 
 }
 
+@media all and (max-width: 1350px) and (min-width: 1275px) {
+#intro-section .center-div{ max-width:770px !important; }
+#intro-section .center-div .inner-div{ max-width:770px !important; }
+#intro-section .center-div .inner-div h1{ font-size:38px !important; }
+#intro-section .right-div{ max-width:250px !important;}
+#intro-section .left-div{ max-width:250px !important;}
+}
+
 @media all and (max-width: 320px) and (min-width: 300px) {
 #smartplate-work .inner-container .col-3{width: 26% !important;}
 .signup-container .center-block .heading1{ font-size: 32px !important;}
@@ -135,6 +143,13 @@
 #help-section{ height:auto;}
 }
 
+@media all and (max-width: 600px) and (min-width: 320px) {
+#faq-header{
+	font-size:20px !important;
+	text-align:center;
+}
+}
+
 @media all and (max-width: 1024px) and (min-width: 320px) {
 #logo-header{ min-height:190px;}	
 #logo-header .logo{ text-align:center; float:none; width:auto; margin:10px 0;}
@@ -237,6 +252,8 @@
 #intro-section .center-div{max-width: 570px;}
 #team-body-col .right-block-div{ height:470px;}
 }
+
+
 
 @media all and (max-width: 969px) and (min-width: 320px) {
 	

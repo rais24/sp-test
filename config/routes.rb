@@ -27,6 +27,25 @@ Rails.application.routes.draw do
   get 'science/index'
 
   get 'features/index'
+  
+  match '/team',     to: 'team#index',             
+  via: 'get'
+  
+  match '/features',     to: 'welcome#index',             
+  via: 'get'
+  
+  match '/science',     to: 'science#index',             
+  via: 'get'
+  
+  match '/faq',     to: 'faq#index',             
+  via: 'get'
+  
+   match '/blog',     to: 'blog#index',             
+  via: 'get'
+  
+  match '/contactus',     to: 'contactus#index',             
+  via: 'get'
+  resources "contactus", only: [:new, :create]
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
