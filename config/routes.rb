@@ -43,6 +43,9 @@ Rails.application.routes.draw do
    match '/blog',     to: 'blog#index',             
   via: 'get'
   
+   match '/termsandconditions',     to: 'termsandconditions#index',             
+  via: 'get'
+  
   match '/contactus',     to: 'contactus#index',             
   via: 'get'
   resources "contactus", only: [:new, :create]

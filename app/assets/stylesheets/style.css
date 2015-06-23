@@ -92,7 +92,7 @@ body{ margin:0px; padding:0px; font-size:100%}
 /*Connect and analyze section close*/
 
 /*BALANCED NUTRITION*/
-#balanced-section{background:url(../assets/background/balanced.png) top center no-repeat;  width:100%; height:530px; text-align:center; padding-top:80px; color:#fff;}
+#balanced-section{background:url(../assets/background/balanced.png) top center no-repeat;  width:100%; height:530px; text-align:center; padding-top:20px; color:#fff;}
 #balanced-section .heading{font-size:14px; font-family:'Gotham-Medium';}
 #balanced-section .heading2{font-size:44px; font-family:'Gotham-Light'; line-height:100px;}
 #balanced-section .div-center{ max-width:750px; width:100%; margin:0 auto;}
@@ -244,7 +244,7 @@ right:0;
 #science-col2 .left-block-div{ float:left; width:50%; height:auto;}
 #science-col2 .left-block-div img{ max-width:100%; height:auto;}
 #science-col2 .right-block-div{float:left; width:50%; background:#490d67; height:474px;}
-#science-col2 .right-block-div .center-div{ margin:0 auto; max-width:506px; text-align:center; padding-top:91px;}
+#science-col2 .right-block-div .center-div{ margin:0 auto; max-width:506px; text-align:center; padding-top:20px;}
 #science-col2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #science-col2 .right-block-div .center-div .text{ font-size:24px; line-height:40px;}
 #science-col2 .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  font-family: 'Gotham-Medium'; letter-spacing:1px;}
@@ -262,7 +262,7 @@ right:0;
 #team-body-col .left-block-div .over-img-top{ display:none;}
 #team-body-col .left-block-div img{ max-width:100%; height:auto; vertical-align:top;}
 #team-body-col .right-block-div{float:left; width:50%; background:#ffffff; height:496px;}
-#team-body-col .right-block-div .center-div{ margin:0 auto; max-width:506px; padding-top:91px;}
+#team-body-col .right-block-div .center-div{ margin:0 auto; max-width:506px; padding-top:20px;}
 #team-body-col .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
 #team-body-col .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
@@ -281,7 +281,7 @@ right:0;
 #team-body-col-row2 .left-block-div .over-img{position:absolute; left:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
 #team-body-col-row2 .left-block-div .over-img-top{ display:none;}
 #team-body-col-row2 .right-block-div{float:left; width:50%; background:#eeeeef; height:498px;}
-#team-body-col-row2 .right-block-div .center-div{ margin:0 auto; max-width:506px;  padding-top:91px;}
+#team-body-col-row2 .right-block-div .center-div{ margin:0 auto; max-width:506px;  padding-top:20px;}
 #team-body-col-row2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col-row2 .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
 #team-body-col-row2 .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
@@ -509,6 +509,10 @@ padding-left:18px; padding-right:5px;}
 .product-container .last-text .inner-div a{color:#50176d; text-decoration:none;}
 
 /* product page css close*/
+
+
+
+
 
 
 

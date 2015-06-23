@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 @media all and  (max-width: 320px){
 #client-section{ height:auto;}
 
@@ -174,8 +178,8 @@
 #team-header{ background-position:right; text-align:center; line-height:auto;}
 #team-body-col-row2{ height:auto;}
 #team-body-col{ height:auto;}
-#team-body-col-row2 .right-block-div{ height:371px !important;}
-#team-body-col .right-block-div{ height:371px !important;}
+#team-body-col-row2 .right-block-div{ height:371px;}
+#team-body-col .right-block-div{ height:371px;}
 #science-col2{ height:auto;}
 #science-col2 .left-block-div{ width:auto; float:none;}
 #science-col2 .right-block-div{ width:auto; float:none;}
@@ -271,3 +275,20 @@
 .product-container .prod-box2 .product-details h2{ height:11px; line-height:25px;}
 .product-container .prod-box2 .product-details h4{ line-height:22px; margin-top:15px;}
 }
+
+
+@media all and (max-width: 460px) and (min-width: 320px) {
+.responsive-container{top:350px !important;}
+}
+
+@media all and (max-width: 460px) and (min-width: 320px) {
+.right-block-div-omkar{
+height:600px !important;
+}
+.right-block-div-namrata{
+height:450px !important;
+}
+}
+
+
+
