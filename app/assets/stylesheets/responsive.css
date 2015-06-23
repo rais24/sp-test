@@ -9,6 +9,7 @@
 #intro-section .center-div .inner-div h1{ font-size:38px !important; }
 #intro-section .right-div{ max-width:250px !important;}
 #intro-section .left-div{ max-width:250px !important;}
+.right-block-div{height:470px !important;}
 }
 
 @media all and (max-width: 320px) and (min-width: 300px) {
