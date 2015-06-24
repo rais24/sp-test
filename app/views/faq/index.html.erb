@@ -13,6 +13,18 @@
 			$(this).text('-').parent().addClass('collapse').removeClass('expand').find('>ul').slideDown();
 			e.stopImmediatePropagation();
 		});
+		
+		$('.accord ul').on('click', 'li.collapse a ', function (e) {
+		$(this).next().text('+');
+			$(this).parent().addClass('expand').removeClass('collapse').find('>ul').slideUp();
+			e.stopImmediatePropagation();
+		});
+
+		$('.accord ul').on('click', 'li.expand a', function (e) {
+		$(this).next().text('-');
+			$(this).parent().addClass('collapse').removeClass('expand').find('>ul').slideDown();
+			e.stopImmediatePropagation();
+		});
 
 		$('.accord ul').on('click', 'li.collapse li:not(.collapse)', function (e) {
 			e.stopImmediatePropagation();
@@ -24,12 +36,12 @@
   
   <!-- body header -->
   <div id="body-container">
-    <div id="faq-header" align="right">Frequently&nbsp;Asked&nbsp;Questions.</div>
+    <div id="faq-header">Frequently&nbsp;Asked&nbsp;Questions.</div>
     <div class="expand-area">
     <div id="Accord" class="accord">
 		<ul>
 		
-			<li><a href="#">What is SmartPlate?</a>
+			<li><a>What is SmartPlate?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -44,7 +56,7 @@
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">How does it work?</a>
+            <li><a>How does it work?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -54,7 +66,7 @@
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">How it help me?</a>
+            <li><a>How it help me?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -64,7 +76,7 @@
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">When will it ship?</a>
+            <li><a>When will it ship?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -74,7 +86,7 @@
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">Who is Fitly?</a>
+            <li><a>Who is Fitly?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -84,7 +96,7 @@
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">How does SmartPlate work with mixed foods?</a>
+            <li><a>How does SmartPlate work with mixed foods?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -97,7 +109,7 @@ Also, in the case where she is uncertain of what it sees, she will take an educa
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">How do you clean the SmartPlate?</a>
+            <li><a>How do you clean the SmartPlate?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">
@@ -107,7 +119,7 @@ Also, in the case where she is uncertain of what it sees, she will take an educa
 				</ul>
 			</li>
             <div style="height:1px; background:#ccc;"></div>
-            <li><a href="#">What if I'm eating out?</a>
+            <li><a>What if I'm eating out?</a>
 				<ul class="sub">
 					<li>                    	
                         <p class="pl-20">

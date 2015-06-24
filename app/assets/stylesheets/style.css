@@ -13,8 +13,8 @@ body{ margin:0px; padding:0px; font-size:100%}
 
 /*top header*/
 #logo-header{ height:95px; max-width:1280px; margin:0 auto; font-family: 'Gotham-Medium';}
-#logo-header .logo{ float:left; margin:27px 0; width:365px;}
-#logo-header .logo img{ max-width:100%; height:auto;}
+#logo-header .logo{ float:left; margin:27px 0; width:365px; margin:14px 0;}
+#logo-header .logo img{ max-width:80%; height:auto;}
 #logo-header .logo a img{ border:0px;}
 #nav{ margin:0px; padding:0px; float:left;}
 #nav ul{ list-style-type:none; }
@@ -256,12 +256,12 @@ right:0;
 #team-header{background:url(../assets/background/team-page.jpg) top center no-repeat; height:355px; font-family:'Gotham-Light';color:#fff; font-size:40px; line-height:300px; width:100%;}
 
 /* row one */
-#team-body-col{font-family:'Gotham-Light'; text-align:left; width:100%; height:474px;}
+#team-body-col{font-family:'Gotham-Light'; text-align:left; width:100%; /*height:474px;*/ background:#fff; height:496px; float:left;}
 #team-body-col .left-block-div{ float:left; width:50%; height:auto; position:relative;}
 #team-body-col .left-block-div .over-img{position:absolute; right:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
 #team-body-col .left-block-div .over-img-top{ display:none;}
 #team-body-col .left-block-div img{ max-width:100%; height:auto; vertical-align:top;}
-#team-body-col .right-block-div{float:left; width:50%; background:#ffffff; height:496px;}
+#team-body-col .right-block-div{float:left; width:50%; height:496px;}
 #team-body-col .right-block-div .center-div{ margin:0 auto; max-width:506px; padding-top:20px;}
 #team-body-col .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
@@ -274,13 +274,13 @@ right:0;
 
 
 
-#team-body-col-row2{color:#fff; width:100%; height:485px; font-family:'Gotham-Light'; text-align:left;}
+#team-body-col-row2{color:#fff; width:100%; height:496px; font-family:'Gotham-Light'; text-align:left; background:#eeeeef; float:left;}
 #team-body-col-row2 .left-block-div{ float:right; width:50%; height:auto; position:relative;}
 #team-body-col-row2 .left-block-div img{ max-width:100%; height:auto;}
 #team-body-col-row2 .left-block-div .over-img{position:absolute; left:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
 #team-body-col-row2 .left-block-div .over-img{position:absolute; left:0px; top:0px; bottom:0px; margin:auto 0; height:50px;}
 #team-body-col-row2 .left-block-div .over-img-top{ display:none;}
-#team-body-col-row2 .right-block-div{float:left; width:50%; background:#eeeeef; height:498px;}
+#team-body-col-row2 .right-block-div{float:left; width:50%;}
 #team-body-col-row2 .right-block-div .center-div{ margin:0 auto; max-width:506px;  padding-top:20px;}
 #team-body-col-row2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col-row2 .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
@@ -309,6 +309,7 @@ right:0;
 .accord ul li a {
 	color: #490d67;
 	text-decoration: none;	
+	cursor:pointer;
 }
 
 .accord ul li span {
@@ -510,9 +511,59 @@ padding-left:18px; padding-right:5px;}
 
 /* product page css close*/
 
+/*Spree CSS */
+.product-list-item{max-width:200px; height:auto; display:inline-block; margin:25px;}
+.product-list-item img{max-width:100%; height:auto;}
+.product-list-item a{text-decoration:none; font-family:'GothamBook'; color:#48444c; font-size:13px;}
+.product-list-item span{font-family:'GothamBook'; color:#48444c; font-size:13px;}
+#product-description{font-family:'GothamBook'; color:#48444c; font-size:14px;}
+#product-description .product-title{ padding-bottom:5px;}
+#product-description .well{ padding-bottom:20px;}
+#product-images .panel-body{text-align:center; width:100%; margin-bottom:20px; display:inline-block;}
+#product-variants .product-section-title{ padding-bottom:5px;}
+#product-variants  li{ padding-bottom:5px;}
+#product-variants { padding-bottom:20px;}
+#product-price .product-section-title{ padding-bottom:5px;}
+#product-price .div{ padding-bottom:20px;}
+.panel-default{font-family:'GothamBook'; color:#48444c; font-size:14px; }
+.panel-title{ text-align:center; width:100%; margin-bottom:20px; display:inline-block; font-size:24px;}
+.form-group{}
+	
+.form-group #spree_user_email, .form-group #spree_user_password{max-width: 384px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 51px;
+    border: 1px solid #30343b;
+    display: block;
+    margin: 8px 0;
+    line-height: 50px;
+    padding-left: 18px;
+    padding-right: 5px;}
 
+.form-group .btn{background: #52186e;
+    width: 407px;
+    height: 51px;
+    border-radius: 8px;
+	border: none;
+    font-size: 18px;
+    font-family: 'Gotham-Bold';
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+	
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;}
 
-
+#existing-customer .text-center{margin: 10px 0;}
+#existing-customer .checkbox{margin: 10px 0;}
+#existing-customer a{text-decoration:underline; font-family:'GothamBook'; color:#48444c; font-size:13px; font-weight:bold;}
 
 
 
