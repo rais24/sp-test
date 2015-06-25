@@ -24,6 +24,10 @@ body{ margin:0px; padding:0px; font-size:100%}
 #order-now{background:#8446e9; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; height:31px; width:177px; float:right; margin:17px 0; padding:16px 28px; cursor:pointer;}
 #order-now .text{ color:#FFF; text-align:center; font-size:14px; height:18px;}
 #order-now .img{text-align:center;}
+
+#order-now-head{background:#8446e9; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; height:14px; width:177px; float:right; margin:17px 0; padding:18px 28px; cursor:pointer; position:absolute; left:0; right:0; bottom:35px; margin:0 auto;}
+#order-now-head .text{ color:#FFF; text-align:center; font-size:14px; height:18px; font-family: "Gotham-Medium";}
+
 /*top header*/
 
 /* top - header 1 */
@@ -265,14 +269,12 @@ right:0;
 #team-body-col .right-block-div .center-div{ margin:0 auto; max-width:506px; padding-top:20px;}
 #team-body-col .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
-#team-body-col .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
-#team-body-col .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
+#team-body-col .right-block-div .center-div .text{ font-size:14px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
+#team-body-col .right-block-div .center-div .last-name{ font-size:18px; line-height:60px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
 /* row one close */
 
 
 /* row 2 */
-
-
 
 #team-body-col-row2{color:#fff; width:100%; height:496px; font-family:'Gotham-Light'; text-align:left; background:#eeeeef; float:left;}
 #team-body-col-row2 .left-block-div{ float:right; width:50%; height:auto; position:relative;}
@@ -284,8 +286,8 @@ right:0;
 #team-body-col-row2 .right-block-div .center-div{ margin:0 auto; max-width:506px;  padding-top:20px;}
 #team-body-col-row2 .right-block-div .center-div .img-div{ margin-bottom:25px;}
 #team-body-col-row2 .right-block-div .center-div .name{ font-size:40px; line-height:30px; color:#351558; font-family: 'Gotham-Light';}
-#team-body-col-row2 .right-block-div .center-div .text{ font-size:18px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
-#team-body-col-row2 .right-block-div .center-div .last-name{ font-size:18px; line-height:80px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
+#team-body-col-row2 .right-block-div .center-div .text{ font-size:14px; line-height:30px; color:#48444c; font-family: 'GothamBook';}
+#team-body-col-row2 .right-block-div .center-div .last-name{ font-size:18px; line-height:60px; text-transform:uppercase;  letter-spacing:1px; color:#351558; font-family: 'Gotham-Medium';}
 /* row 2 close */
 
 
@@ -529,7 +531,7 @@ padding-left:18px; padding-right:5px;}
 .panel-title{ text-align:center; width:100%; margin-bottom:20px; display:inline-block; font-size:24px;}
 .form-group{}
 	
-.form-group #spree_user_email, .form-group #spree_user_password{max-width: 384px;
+.form-group #spree_user_email, .form-group #spree_user_password, .form-group #spree_user_password_confirmation, #checkout_form_registration #order_email{max-width: 384px;
     width: 100%;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -565,10 +567,151 @@ padding-left:18px; padding-right:5px;}
 #existing-customer .checkbox{margin: 10px 0;}
 #existing-customer a{text-decoration:underline; font-family:'GothamBook'; color:#48444c; font-size:13px; font-weight:bold;}
 
+#cart-detail{
+	font-family:'GothamBook'; color:#48444c; font-size:14px; 
+}
 
+.line_item_quantity{
+	width:50px;
+}
 
+#cart-detail{
+max-width:800px;
+width:100%;
+}
 
+.cart-item-image{
+vertical-align:middle;
+line-height:70px;
+}
 
+#cart-detail tr{
+height:30px;
+}
 
+.top_cart_header h1{
+display:none;
+}
 
+.top_cart_header{
+border-top:1px solid #ccc;
+}
 
+.cart-item-description a{text-decoration:none;
+}
+#clear_cart_link,#clear_cart_link a{
+font-family:'GothamBook'; color:#48444c; font-size:14px; text-decoration:none; font-weight:bold;
+}
+
+.top_cart_header button{
+width:200px !important; color:#fff !important; text-decoration:none !important;
+}
+
+.top_cart_header .alert-info{
+font-family:'GothamBook'; color:#48444c; font-size:18px; text-decoration:none; font-weight:bold; display:inline-block; width:100%; line-height:100px;
+}
+
+.top_cart_header .btn, .text-center, .text-center a{
+font-family:'GothamBook'; color:#48444c; font-size:14px; text-decoration:none; font-weight:bold; text-decoration:underline;
+}
+
+#products{display:inline-block; width:100%; border-top:1px solid #ccc;}
+
+hr{display:none !important;}
+
+.new_spree_user .btn, #checkout_form_registration .btn, .btn-success{
+background: #52186e;
+    width: 200px;
+	margin-bottom:20px;
+    height: 51px;
+    border-radius: 8px;
+	border: none;
+    font-size: 18px;
+    font-family: 'Gotham-Bold';
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+	
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.panel-title{
+margin-top:20px;
+}
+
+center h1{display:none;}
+
+#registration{border-top:1px solid #ccc;}
+
+#checkout-step-address{display:none;}
+
+.form-group input{
+width: 300px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 51px;
+    border: 1px solid #30343b;
+    display: block;
+    margin: 8px 0;
+    line-height: 50px;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+.edit_order .panel{
+width:100%; display:inline-block;}
+
+#checkout_form_address{
+font-family:'GothamBook'; color:#48444c; font-size:14px; text-decoration:none; font-weight:bold; text-decoration:underline;
+}
+
+#order_bill_address_attributes_country_id, #order_bill_address_attributes_state_id, #order_ship_address_attributes_country_id, #order_ship_address_attributes_state_id{
+border: 1px solid #30343b;
+    font-family: "Gotham-Medium";
+    font-size: 18px;
+    height: 48px;
+	margin: 8px 0;
+	color:#48444c;
+    padding: 0 10px;
+    width: 323px;
+
+}
+
+#order_bill_address_attributes_country_id option, #order_bill_address_attributes_state_id option, #order_ship_address_attributes_country_id option, #order_ship_address_attributes_state_id option{
+
+    color: #48444c;
+    cursor: pointer;
+    font-family: "Gotham-Medium";
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+#checkout-summary{
+font-family:'GothamBook'; color:#48444c; font-size:16px; text-decoration:none; font-weight:bold; line-height:30px;
+}
+
+#checkout{
+margin-top:20px;
+border-top:1px solid #ccc;
+padding-top:30px;
+}
+
+#errorExplanation {
+font-family:'GothamBook'; color:#48444c; font-size:14px; text-decoration:none;
+}
+
+#errorExplanation  li, #errorExplanation  h3{
+line-height:20px;
+}
+
+.top_cart_header .btn, .text-center, .text-center a.info{
+font-weight:bold !important; text-decoration:none !important; font-size:13px !important;
+}

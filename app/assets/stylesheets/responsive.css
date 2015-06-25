@@ -7,6 +7,19 @@
 
 }
 
+@media all and (max-width: 568px) and (min-width: 320px) {
+	#header-section .h1{
+	font-size: 23px !important;
+    line-height: 35px !important;
+	}
+	#header-section .h2{ font-size:12px !important; line-height:28px !important;}
+	
+	#header-section .text-container{ top:30px !important;}
+	#header-section .slide-div img{ bottom:40px !important;}
+	#order-now-head{ bottom:23px;}
+	#header-section{ height:380px;}
+}
+
 @media all and (max-width: 1350px) and (min-width: 1275px) {
 #intro-section .center-div{ max-width:770px !important; }
 #intro-section .center-div .inner-div{ max-width:770px !important; }
@@ -98,6 +111,7 @@
 #smartplate-work .inner-container .col-3 .prod-name{ font-size:12px;}
 .product-block{ width:80%;}
 .product-container .prod-box2 .product-details h4{ font-size:13px;}
+
 }
 
 @media all and (max-width: 560px) and (min-width: 320px) {
@@ -138,8 +152,6 @@
 }
 
 @media all and (max-width: 980px) and (min-width: 320px) {
-
-
 #science-col2{ height:auto;}
 #science-col2 .left-block-div{ width:auto; float:none;}
 #science-col2 .right-block-div{ float:none; width:auto;}
@@ -163,7 +175,8 @@
 }
 
 @media all and (max-width: 1190px) and (min-width: 320px) {
-#logo-header{ min-height:190px;}	
+#logo-header{ height:70px;}
+#order-now{ display:none;}	
 #logo-header .logo{ text-align:left; float:none; width:auto; margin:10px 0;}
 #logo-header .logo img{ width:290px;}
 #nav{ display: none;}
@@ -172,8 +185,10 @@
 
 .responsive-menu {
     display: block;
-    float: none;
-    width: 100%;
+    float: right;
+	position:relative;
+	top:-55px;
+    width: 16%;
 	text-align:right;
 	font-family: 'Gotham-Medium';
 }
@@ -181,12 +196,12 @@
     cursor: pointer;
     left: -12px;
     position: relative;
-    top: -56px;
+    top: 0px;
 }
 .menutoggle {
     display: none;
     position: absolute;
-    top: 56px;
+    top: 35px;
 	right:0;
     z-index: 100;
 }
@@ -256,7 +271,14 @@
 #contactus-header{ background-position:right;}
 
 }
+@media all and (max-width: 960px) and (min-width: 640px) {
+#all-colours .center-div ul li img{ height:163px; width:180px;}
+}
 
+
+@media all and (max-width: 973px) and (min-width: 800px) {
+	#header-section .h1{line-height:45px;}
+}
 
 @media all and (max-width: 800px) and (min-width: 320px) {
 #intro-section .left-div{ display:none;}
@@ -290,6 +312,7 @@
 #post-article-header .center-div-block .heading{
 	font-size:35px;
 }	
+#header-section .slide-div img{ bottom:115px;}
 #team-header{ font-size:34px;}
 .product-container .prod-box{ float:none; width:auto; margin:10px auto;}
 }
@@ -313,11 +336,13 @@
 #intro-section .center-div .inner-div h4{ padding-top:50px;}
 }
 
-@media all and (max-width: 1280px) and (min-width: 980px) {
-
-
+@media all and (max-width: 1260px) and (min-width: 801px) {
+#header-section .slide-div img{ bottom:3px;}
 }
 
+@media all and (max-width: 830px) and (min-width: 801px) {
+	#header-section .h2{ font-size:17px;}
+}
 
 
 @media all and (max-width: 969px) and (min-width: 320px) {
@@ -346,9 +371,6 @@
 height:600px !important;
 }
 .right-block-div-namrata{
-height:450px !important;
+
 }
 }
-
-
-

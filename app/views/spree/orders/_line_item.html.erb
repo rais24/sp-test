@@ -1,7 +1,7 @@
-<font face = "Gotham-Light"><% variant = line_item.variant %>
+<% variant = line_item.variant %>
 
 
-<font face = "Gotham-Light"><%= order_form.fields_for :line_items, line_item do |item_form| %>
+<%= order_form.fields_for :line_items, line_item do |item_form| %>
   <tr class="line-item">
   </br></br>
     <td class="cart-item-image" data-hook="cart_item_image">
@@ -12,7 +12,7 @@
       <% end %>
     </td>
     <td class="cart-item-description" data-hook="cart_item_description">
-      <h4><font face = "Gotham-Light"><%= link_to line_item.name, product_path(variant.product) %></h4>
+      <h4><%= link_to line_item.name, product_path(variant.product) %></h4>
       <%= variant.options_text %>
       <% if line_item.insufficient_stock? %>
         <span class="out-of-stock">
@@ -21,20 +21,20 @@
       <% end %>
       </br>
       <span class="line-item-description" data-hook="line_item_description">
-       <font face = "Gotham-Light"> <%= line_item_description_text(line_item.description) %>
+        <%= line_item_description_text(line_item.description) %>
       </span>
     </td>
     <td class="lead text-primary cart-item-price" data-hook="cart_item_price">
-     <font face = "Gotham-Light"> <%= line_item.single_money.to_html %>
+      <%= line_item.single_money.to_html %>
     </td>
     <td class="cart-item-quantity" data-hook="cart_item_quantity" valign="center">
-     <font face = "Gotham-Light"> <%= item_form.number_field :quantity, min: 0, class: "form-control line_item_quantity", size: 5 %>
+      <%= item_form.number_field :quantity, min: 0, class: "form-control line_item_quantity", size: 5 %>
     </td>
     <td class="lead text-primary cart-item-total" data-hook="cart_item_total">
-     <font face = "Gotham-Light"> <%= line_item.display_amount.to_html unless line_item.quantity.nil? %>
+      <%= line_item.display_amount.to_html unless line_item.quantity.nil? %>
     </td>
     <td class="cart-item-delete" data-hook="cart_item_delete">
-     <font face = "Gotham-Light"> <%= link_to content_tag(:span, '', class: 'glyphicon glyphicon-minus-sign'), '#', class: 'delete', id: "delete_#{dom_id(line_item)}" %>
+      <%= link_to content_tag(:span, '', class: 'glyphicon glyphicon-minus-sign'), '#', class: 'delete', id: "delete_#{dom_id(line_item)}" %>
     </td>
   </tr>
 <% end %>
