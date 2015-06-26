@@ -715,3 +715,6 @@ line-height:20px;
 .top_cart_header .btn, .text-center, .text-center a.info{
 font-weight:bold !important; text-decoration:none !important; font-size:13px !important;
 }
+
+#order_ship_address_attributes_state_name, #order_bill_address_attributes_state_name{display:none;}
+
