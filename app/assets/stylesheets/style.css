@@ -301,7 +301,7 @@ right:0;
 .accord ul, .accord ul li {
 	list-style-type: none;
 	color:#490d67;
-	font-size:24px;
+	font-size:22px;
 	line-height:85px;
 	font-family: 'Gotham-Bold';
 	/*margin-bottom:42px;*/
@@ -717,4 +717,6 @@ font-weight:bold !important; text-decoration:none !important; font-size:13px !im
 }
 
 #order_ship_address_attributes_state_name, #order_bill_address_attributes_state_name{display:none;}
+
+#designer-success-section  .heading{ padding-top:16px; }
 
